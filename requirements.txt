@@ -1,2 +1,2 @@
 mysql-connector-python==8.0.33
-psutil==5.9.8   # optional, if you add Python-based CPU/disk monitoring
+psutil==5.9.8
