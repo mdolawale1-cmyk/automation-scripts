@@ -8,9 +8,6 @@
 ![Issues](https://img.shields.io/github/issues/mdolawale1-cmyk/automation-scripts)
 ![Stars](https://img.shields.io/github/stars/mdolawale1-cmyk/automation-scripts?style=social)
 
-A collection of practical automation scripts for **incident management, monitoring, and system optimization**.
-
-
 A collection of practical automation scripts for **incident management, monitoring, and system optimization**.  
 This repository demonstrates skills in Python scripting, Linux administration, and proactive system reliability engineering.
 
