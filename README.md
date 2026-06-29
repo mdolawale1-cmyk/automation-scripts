@@ -53,7 +53,7 @@ automation-scripts/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 - **database/** → Database health checks  
 - **monitoring/** → System monitoring scripts (CPU, memory, disk, processes, network)  
 - **utilities/** → General automation tasks (cleanup, rotation, reporting, parsing logs)  
