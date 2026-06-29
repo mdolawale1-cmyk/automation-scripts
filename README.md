@@ -14,7 +14,7 @@ This repository demonstrates skills in Python scripting, Linux administration, a
 ---
 
 ## 📂 Repository Structure
-
+```bash
 automation-scripts/
 │
 ├── database/
