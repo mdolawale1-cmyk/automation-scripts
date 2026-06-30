@@ -93,6 +93,7 @@ automation-scripts/
 - [System Health Dashboard](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/dashboards/system_health_dashboard.py) → Generates consolidated Markdown/HTML system health report
 
 ---
+---
 ## 📊 Samples
 
 Example outputs are available in the `samples/` folder:
@@ -102,6 +103,33 @@ Example outputs are available in the `samples/` folder:
 - [Log Parser Summary Example](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/samples/log_parser_summary_example.txt) → Error/warning counts from logs  
 - [Disk Space Alert Example](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/samples/disk_space_alert_example.log) → Disk usage alert  
 - [System Health Dashboard Example](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/samples/system_health_dashboard_example.md) → Consolidated system health dashboard
+
+---
+## 🔧 Workflow Visualization
+
+### 📊 Text‑Based Diagram (ASCII Style)
+
+```text
++------------------+
+|  Alert Triggered |
++------------------+
+         ↓
++----------------------+
+|  Monitoring Script   |
++----------------------+
+         ↓
++--------------------------------+
+|  Log Parser / Status Report    |
++--------------------------------+
+         ↓
++-------------------------------+
+| Notification Sent (Email/Slack) |
++-------------------------------+
+         ↓
++----------------------+
+|  Dashboard Updated   |
++----------------------+
+
 
 
 
