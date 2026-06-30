@@ -111,6 +111,7 @@ Example outputs are available in the `samples/` folder:
 pip install -r requirements.txt
 ```
 ---
+---
 ## 📜 License
 This project is licensed under the MIT License — see the [LICENSE](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/LICENSE) file for details.
 
@@ -120,4 +121,27 @@ This project is licensed under the MIT License — see the [LICENSE](https://git
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/michael-d-olawale-277727349/)  
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/mdolawale1-cmyk)
 
+## 📖 Usage Examples
+
+Run monitoring scripts:
+```bash
+python monitoring/disk_space_alert.py
+bash monitoring/monitor_cpu.sh
+
+## Generate reports:
+```bash
+python utilities/service_status_report.py
+python dashboards/system_health_dashboard.py
+
+##Send notifications:
+```bash
+python notifications/alert_email.py
+
+## 🔮 Future Improvements
+- Planned enhancements:
+- Integration with Slack/MS Teams for real‑time alerts
+- Cloud monitoring support (AWS, Azure, Kubernetes)
+- Automated remediation scripts for common incidents
+- Web dashboard with live system metrics
+- CI/CD pipeline integration for script deployment
 
