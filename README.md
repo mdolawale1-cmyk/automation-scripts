@@ -129,10 +129,7 @@ Example outputs are available in the `samples/` folder:
 +----------------------+
 |  Dashboard Updated   |
 +----------------------+
-
-
-
-
+```
 
 ## Install dependencies:
 ```bash
