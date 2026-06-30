@@ -110,12 +110,14 @@ Example outputs are available in the `samples/` folder:
 ```bash
 pip install -r requirements.txt
 ```
+---
 ## 📜 License
-This project is licensed under the MIT License — see the [LICENSE](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/utilities/LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/LICENSE) file for details.
 
 ## 👤 Author
-**Michael Dare Olawale**  
-- LinkedIn: [linkedin.com/in/michael-d-olawale-277727349](https://www.linkedin.com/in/michael-d-olawale-277727349/)  
-- GitHub: [github.com/mdolawale1-cmyk](https://github.com/mdolawale1-cmyk)
+**Michael Dare Olawale**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/michael-d-olawale-277727349/)  
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/mdolawale1-cmyk)
 
 
