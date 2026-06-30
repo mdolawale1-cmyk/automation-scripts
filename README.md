@@ -130,13 +130,22 @@ Example outputs are available in the `samples/` folder:
 |  Dashboard Updated   |
 +----------------------+
 ```
-## 🪄 Mermaid Diagram
+## 🪄 Mermaid Diagram (Colored)
+
 ```mermaid
 flowchart TD
     A[Alert Triggered 🚨] --> B[Monitoring Script 📈]
     B --> C[Log Parser / Status Report 📑]
     C --> D[Notification Sent 📧]
     D --> E[Dashboard Updated 📊]
+
+    %% Color styling for each box
+    style A fill:#f8b4b4,stroke:#333,stroke-width:1px
+    style B fill:#fcd34d,stroke:#333,stroke-width:1px
+    style C fill:#93c5fd,stroke:#333,stroke-width:1px
+    style D fill:#a7f3d0,stroke:#333,stroke-width:1px
+    style E fill:#d8b4fe,stroke:#333,stroke-width:1px
+
 ```
 ### 📈 Monitoring Flow (Mermaid)
 
