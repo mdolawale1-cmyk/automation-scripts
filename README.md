@@ -138,6 +138,19 @@ flowchart TD
     C --> D[Notification Sent 📧]
     D --> E[Dashboard Updated 📊]
 ```
+### 📈 Monitoring Flow (Mermaid)
+
+```mermaid
+flowchart LR
+    CPU[CPU Usage Script] --> Alert1[CPU Alert 🚨]
+    MEM[Memory Usage Script] --> Alert2[Memory Alert 🚨]
+    DISK[Disk Usage Script] --> Alert3[Disk Alert 🚨]
+    NET[Network Check Script] --> Alert4[Network Alert 🚨]
+    Alert1 --> Dashboard[System Health Dashboard 📊]
+    Alert2 --> Dashboard
+    Alert3 --> Dashboard
+    Alert4 --> Dashboard
+```
 
 ## Install dependencies:
 ```bash
