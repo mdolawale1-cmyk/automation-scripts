@@ -17,42 +17,36 @@ This repository demonstrates skills in Python scripting, Linux administration, a
 ```bash
 automation-scripts/
 │
+├── dashboards/
+│   └── system_health_dashboard.py
+│
 ├── database/
 │   └── check_db_connection.py
 │
 ├── monitoring/
-│   ├── monitor_cpu.sh
-│   ├── memory_usage.sh
-│   ├── disk_usage.sh
 │   ├── disk_space_alert.py
+│   ├── disk_usage.sh
+│   ├── memory_usage.sh
+│   ├── monitor_cpu.sh
 │   ├── network_check.py
 │   └── process_monitor.py
-│
-├── utilities/
-│   ├── cleanup_temp_files.py
-│   ├── service_restart.py
-│   ├── error_report.py
-│   ├── backup_cleanup.py
-│   ├── log_rotation.sh
-│   ├── service_status_report.py
-│   └── log_parser.py
 │
 ├── notifications/
 │   └── alert_email.py
 │
-├── dashboards/
-│   └── system_health_dashboard.py
-│
 ├── samples/
+│   ├── disk_space_alert_example.log
+│   ├── log_parser_summary_example.txt
 │   ├── memory_alert_example.txt
 │   ├── service_status_report_example.txt
-│   ├── log_parser_summary_example.txt
-│   ├── disk_space_alert_example.log
-│   └── system_health_dashboard_example.md
+│   └── system_health_dashboard_example.txt
 │
-├── requirements.txt
-├── README.md
-└── .gitignore
+├── utilities/
+│   ├── .gitignore
+│   ├── LICENSE
+│   ├── README.md
+│   └── requirements.txt
+
 ```
 - **database/** → Database health checks  
 - **monitoring/** → System monitoring scripts (CPU, memory, disk, processes, network)  
