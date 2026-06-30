@@ -147,7 +147,7 @@ flowchart TD
     style E fill:#d8b4fe,stroke:#333,stroke-width:1px
 
 ```
-### 📈 Monitoring Flow (Mermaid)
+### 📈 Monitoring Flow (Mermaid – Colored)
 
 ```mermaid
 flowchart LR
@@ -159,6 +159,18 @@ flowchart LR
     Alert2 --> Dashboard
     Alert3 --> Dashboard
     Alert4 --> Dashboard
+
+    %% 🎨 Color styling for each box
+    style CPU fill:#fca5a5,stroke:#333,stroke-width:1px
+    style Alert1 fill:#fcd34d,stroke:#333,stroke-width:1px
+    style MEM fill:#93c5fd,stroke:#333,stroke-width:1px
+    style Alert2 fill:#86efac,stroke:#333,stroke-width:1px
+    style DISK fill:#c4b5fd,stroke:#333,stroke-width:1px
+    style Alert3 fill:#f9a8d4,stroke:#333,stroke-width:1px
+    style NET fill:#fef08a,stroke:#333,stroke-width:1px
+    style Alert4 fill:#a5b4fc,stroke:#333,stroke-width:1px
+    style Dashboard fill:#d8b4fe,stroke:#333,stroke-width:1px
+
 ```
 
 ## Install dependencies:
