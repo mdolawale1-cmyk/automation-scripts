@@ -64,6 +64,36 @@ automation-scripts/
    git clone https://github.com/mdolawale1-cmyk/automation-scripts.git
    cd automation-scripts
 
+## 🛠️ Script Categories
+
+### Database
+- `check_db_connection.py` → Verifies database connectivity
+
+### Monitoring
+- `monitor_cpu.sh` → Tracks CPU usage  
+- `memory_usage.sh` → Monitors memory usage  
+- `disk_usage.sh` → Checks disk usage  
+- `disk_space_alert.py` → Alerts when disk usage exceeds threshold  
+- `network_check.py` → Tests network connectivity  
+- `process_monitor.py` → Ensures critical processes are running  
+
+### Utilities
+- `cleanup_temp_files.py` → Removes temporary files  
+- `service_restart.py` → Restarts services automatically  
+- `error_report.py` → Generates error reports  
+- `backup_cleanup.py` → Cleans old backups  
+- `log_rotation.sh` → Rotates logs  
+- `service_status_report.py` → Summarizes service status  
+- `log_parser.py` → Counts errors/warnings in logs  
+
+### Notifications
+- `alert_email.py` → Sends email alerts
+
+### Dashboards
+- `system_health_dashboard.py` → Generates consolidated Markdown/HTML system health report
+
+   
+
 ## Install dependencies:
 ```bash
 pip install -r requirements.txt
