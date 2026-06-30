@@ -130,6 +130,14 @@ Example outputs are available in the `samples/` folder:
 |  Dashboard Updated   |
 +----------------------+
 ```
+## 🪄 Mermaid Diagram
+```mermaid
+flowchart TD
+    A[Alert Triggered 🚨] --> B[Monitoring Script 📈]
+    B --> C[Log Parser / Status Report 📑]
+    C --> D[Notification Sent 📧]
+    D --> E[Dashboard Updated 📊]
+```
 
 ## Install dependencies:
 ```bash
