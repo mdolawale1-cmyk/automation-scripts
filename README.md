@@ -66,31 +66,32 @@ automation-scripts/
 
 ## 🛠️ Script Categories
 
-### Database
-- `check_db_connection.py` → Verifies database connectivity
+### 🗄️ Database
+- [Check Database Connection](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/database/check_db_connection.py) → Verifies database connectivity
 
-### Monitoring
-- `monitor_cpu.sh` → Tracks CPU usage  
-- `memory_usage.sh` → Monitors memory usage  
-- `disk_usage.sh` → Checks disk usage  
-- `disk_space_alert.py` → Alerts when disk usage exceeds threshold  
-- `network_check.py` → Tests network connectivity  
-- `process_monitor.py` → Ensures critical processes are running  
+### 📈 Monitoring
+- [Monitor CPU Usage](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/monitoring/monitor_cpu.sh) → Tracks CPU usage  
+- [Memory Usage Monitor](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/monitoring/memory_usage.sh) → Monitors memory usage  
+- [Disk Usage Check](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/monitoring/disk_usage.sh) → Checks disk usage  
+- [Disk Space Alert](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/monitoring/disk_space_alert.py) → Alerts when disk usage exceeds threshold  
+- [Network Connectivity Check](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/monitoring/network_check.py) → Tests network connectivity  
+- [Process Monitor](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/monitoring/process_monitor.py) → Ensures critical processes are running
 
-### Utilities
-- `cleanup_temp_files.py` → Removes temporary files  
-- `service_restart.py` → Restarts services automatically  
-- `error_report.py` → Generates error reports  
-- `backup_cleanup.py` → Cleans old backups  
-- `log_rotation.sh` → Rotates logs  
-- `service_status_report.py` → Summarizes service status  
-- `log_parser.py` → Counts errors/warnings in logs  
+### 🧰 Utilities
+- [Cleanup Temporary Files](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/utilities/cleanup_temp_files.py) → Removes temporary files  
+- [Service Restart Utility](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/utilities/service_restart.py) → Restarts services automatically  
+- [Error Report Generator](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/utilities/error_report.py) → Generates error reports  
+- [Backup Cleanup Tool](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/utilities/backup_cleanup.py) → Cleans old backups  
+- [Log Rotation Script](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/utilities/log_rotation.sh) → Rotates logs  
+- [Service Status Report](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/utilities/service_status_report.py) → Summarizes service status  
+- [Log Parser](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/utilities/log_parser.py) → Counts errors/warnings in logs
 
-### Notifications
-- `alert_email.py` → Sends email alerts
+### 📧 Notifications
+- [Alert Email Sender](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/notifications/alert_email.py) → Sends email alerts
 
-### Dashboards
-- `system_health_dashboard.py` → Generates consolidated Markdown/HTML system health report
+### 📊 Dashboards
+- [System Health Dashboard](https://github.com/mdolawale1-cmyk/automation-scripts/blob/main/dashboards/system_health_dashboard.py) → Generates consolidated Markdown/HTML system health report
+
 ---
 ## 📊 Samples
 
