@@ -136,7 +136,7 @@ python dashboards/system_health_dashboard.py
 ##Send notifications:
 ```bash
 python notifications/alert_email.py
-
+```
 ## 🔮 Future Improvements
 - Planned enhancements:
 - Integration with Slack/MS Teams for real‑time alerts
