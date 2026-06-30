@@ -91,8 +91,18 @@ automation-scripts/
 
 ### Dashboards
 - `system_health_dashboard.py` → Generates consolidated Markdown/HTML system health report
+---
+## 📊 Samples
 
-   
+Example outputs are available in the `samples/` folder:
+
+- [memory_alert_example.txt](samples/memory_alert_example.txt) → Alert when memory exceeds threshold  
+- [service_status_report_example.txt](samples/service_status_report_example.txt) → Daily service health summary  
+- [log_parser_summary_example.txt](samples/log_parser_summary_example.txt) → Error/warning counts from logs  
+- [disk_space_alert_example.log](samples/disk_space_alert_example.log) → Disk usage alert  
+- [system_health_dashboard_example.txt](samples/system_health_dashboard_example.txt) → Consolidated system health dashboard
+
+
 
 ## Install dependencies:
 ```bash
