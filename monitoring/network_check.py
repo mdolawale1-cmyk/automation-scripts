@@ -1,3 +1,4 @@
+"""Checks network connectivity to critical endpoints and alerts if unreachable."""
 import requests
 import time
 
