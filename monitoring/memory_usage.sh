@@ -1,4 +1,4 @@
-"""Monitors memory usage and triggers alert if threshold exceeded."""
+# Monitors memory usage and alerts if threshold exceeded
 #!/bin/bash
 
 # Threshold for memory usage (in %)
