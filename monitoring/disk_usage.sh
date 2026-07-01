@@ -1,3 +1,4 @@
+# Monitors disk usage and logs alert if usage exceeds threshold
 #!/bin/bash
 
 # Threshold for disk usage (in %)
