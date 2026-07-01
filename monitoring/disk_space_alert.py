@@ -1,3 +1,4 @@
+"""Checks disk space and sends alert if usage exceeds threshold."""
 import shutil
 import datetime
 
