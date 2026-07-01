@@ -1,3 +1,5 @@
+"""Parses system logs and summarizes errors/warnings for reporting."""
+
 import sys
 
 def parse_log(file_path):
