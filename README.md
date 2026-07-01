@@ -3,7 +3,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Repo Size](https://img.shields.io/github/repo-size/mdolawale1-cmyk/automation-scripts)
+![Repo Size](https://img.shields.io/github/repo-size/mdolawale1-cmyk/automation-scripts?cacheSeconds=3600)
 ![Last Commit](https://img.shields.io/github/last-commit/mdolawale1-cmyk/automation-scripts)
 ![Issues](https://img.shields.io/github/issues/mdolawale1-cmyk/automation-scripts)
 ![Stars](https://img.shields.io/github/stars/mdolawale1-cmyk/automation-scripts?style=social)
