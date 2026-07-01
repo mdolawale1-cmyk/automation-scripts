@@ -7,6 +7,10 @@
 ![Last Commit](https://img.shields.io/github/last-commit/mdolawale1-cmyk/automation-scripts)
 ![Issues](https://img.shields.io/github/issues/mdolawale1-cmyk/automation-scripts)
 ![Stars](https://img.shields.io/github/stars/mdolawale1-cmyk/automation-scripts?style=social)
+![Shell](https://img.shields.io/badge/Shell-Bash-lightgrey?logo=gnu-bash)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1-blue?logo=powershell)
+![SQL](https://img.shields.io/badge/SQL-Database-orange?logo=postgresql)
+
 
 A collection of practical automation scripts for **incident management, monitoring, and system optimization**.  
 This repository demonstrates skills in Python scripting, Linux administration, and proactive system reliability engineering.
