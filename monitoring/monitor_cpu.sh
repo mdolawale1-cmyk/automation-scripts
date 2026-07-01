@@ -1,3 +1,4 @@
+"""Tracks CPU usage and generates alert when usage is high."""
 #!/bin/bash
 
 # Threshold for CPU usage (in %)
