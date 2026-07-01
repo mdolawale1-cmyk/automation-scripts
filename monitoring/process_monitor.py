@@ -1,33 +1,26 @@
+"""Monitors critical system processes and logs their status."""
+
 import psutil
 import datetime
 
 # List of critical processes to monitor
 CRITICAL_PROCESSES = ["nginx", "mysqld", "sshd"]
 
-# Output log file
-LOG_FILE = "process_monitor.log"
-
 def check_processes():
-    running_processes = [p.name() for p in psutil.process_iter()]
-    report_lines = []
-
+    running = [p.info["name"] for p in psutil.process_iter(attrs=["name"])]
+    status_report = {}
     for proc in CRITICAL_PROCESSES:
-        if proc in running_processes:
-            report_lines.append(f"{proc}: ✅ Running")
-        else:
-            report_lines.append(f"{proc}: ❌ Not running")
+        status_report[proc] = "Running ✅" if proc in running else "Not Running ❌"
+    return status_report
 
-    return report_lines
-
-def log_report(report_lines):
-    with open(LOG_FILE, "a") as log:
-        log.write(f"\n=== Process Monitor Report ({datetime.datetime.now()}) ===\n")
-        for line in report_lines:
-            log.write(line + "\n")
+def log_status(report):
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open("process_monitor.log", "a") as log_file:
+        log_file.write(f"\n[{timestamp}] Process Status:\n")
+        for proc, status in report.items():
+            log_file.write(f" - {proc}: {status}\n")
 
 if __name__ == "__main__":
     report = check_processes()
-    for line in report:
-        print(line)
-    log_report(report)
-    print(f"📄 Report saved to {LOG_FILE}")
+    log_status(report)
+    print("Process monitoring complete. Status logged.")
