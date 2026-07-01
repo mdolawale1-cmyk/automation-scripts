@@ -1,3 +1,4 @@
+"""Checks status of critical services and reports availability."""
 import subprocess
 import datetime
 
